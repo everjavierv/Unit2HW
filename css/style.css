@@ -1,0 +1,20 @@
+body {
+  background-color: lightgrey;
+}
+
+.navbar-brand {
+  margin-left: 600px;
+  color: red;
+}
+
+.navbar-nav {
+  margin-right: 600px;
+}
+
+.aboutMe {
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 600px;
+  max-width: 30%;
+  padding: 40px;
+}

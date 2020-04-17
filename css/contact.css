@@ -1,0 +1,11 @@
+body {
+  background-color: lightgrey;
+}
+
+.navbar-brand {
+  margin-left: 600px;
+}
+
+.navbar-nav {
+  margin-right: 600px;
+}
