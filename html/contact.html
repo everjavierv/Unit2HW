@@ -16,11 +16,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="../css/contact.css" />
-
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
   </head>
-  <body style="background-color: blue;">
-    <nav class="navbar navbar-expand-md navbar-light bg-light text-center">
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light pl-0">
       <a class="navbar-brand">Ever Javier </a>
       <button
         class="navbar-toggler"
@@ -42,17 +41,45 @@
           <a class="nav-item nav-link" href="../index.html"
             >About Me <span class="sr-only">(current)</span></a
           >
-          <span class="navbar-text">
-            |
-          </span>
+
+          <span class="navbar-text">|</span>
           <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-          <span class="navbar-text">
-            |
-          </span>
+
+          <span class="navbar-text">|</span>
+
           <a class="nav-item nav-link active" href="./contact.html">Contact</a>
         </div>
       </div>
     </nav>
+
+    <div class="container contactMe">
+      <h1>Contact Me</h1>
+      <hr />
+      <form>
+        <div class="form-group">
+          <label for="InputName">Name</label>
+          <input type="name" class="form-control" id="InputName" />
+        </div>
+
+        <div class="form-group">
+          <label for="InputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="InputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="InputMessage">Message</label>
+          <textarea class="form-control" id="InputMessage" rows="3"></textarea>
+        </div>
+      </form>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

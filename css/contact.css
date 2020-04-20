@@ -2,10 +2,10 @@ body {
   background-color: lightgrey;
 }
 
-.navbar-brand {
+.contactMe {
+  background-color: white;
+  margin-top: 20px;
   margin-left: 600px;
-}
-
-.navbar-nav {
-  margin-right: 600px;
+  max-width: 30%;
+  padding: 40px;
 }

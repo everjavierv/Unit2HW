@@ -3,12 +3,11 @@ body {
 }
 
 .navbar-brand {
-  margin-left: 600px;
-  color: red;
+  margin-left: 350px;
 }
 
 .navbar-nav {
-  margin-right: 600px;
+  margin-right: 350px;
 }
 
 .aboutMe {
